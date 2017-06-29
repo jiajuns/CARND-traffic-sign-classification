@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.png "Visualization"
-[image2]: ./examples/grayscale.jpg "gaussian blur"
-[image3]: ./examples/random_noise.jpg "median blur"
+[image2]: ./examples/gaussian.png "gaussian blur"
+[image3]: ./examples/median.png "median blur"
 
 [image4]: ./examples/loss_curve.png "loss curve"
 
@@ -99,6 +99,7 @@ My final model results were:
 * test set accuracy of 96.6\%
 
 The training and validation loss is shown below:
+
 ![loss curve][image4]
 
 If a well known architecture was chosen:
