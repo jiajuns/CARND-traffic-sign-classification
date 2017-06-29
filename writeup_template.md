@@ -18,8 +18,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.png "Visualization"
-[image2]: ./examples/gaussian.png "gaussian blur"
-[image3]: ./examples/median.png "median blur"
+[image2]: ./examples/blur.png "gaussian blur"
 
 [image4]: ./examples/loss_curve.png "loss curve"
 
@@ -55,12 +54,11 @@ For example, a sign in red or blue are completely different.
 
 As the first step, I normalized the image data because I found images have different brightness.
 
-I decided to generate additional data as mentioned in data exploration the training dataset is not balance. To add more data, I use gaussian blurring and median blurring to augement traffic sign that has less than 500 image in the training set.
+I decided to generate additional data as mentioned in data exploration the training dataset is not balance. To add more data, I use gaussian blurring and simple blurring to augement traffic sign that has less than 500 image in the training set.
 
 Here is an example of an original image and an augmented image:
 
-![gaussian blur][image2]
-![median blur][image3]
+![gaussian and simple blur][image2]
 
 
 #### 2. Model architecture
