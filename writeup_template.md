@@ -56,7 +56,7 @@ As the first step, I normalized the image data because I found images have diffe
 
 I decided to generate additional data as mentioned in data exploration the training dataset is not balance. To add more data, I use gaussian blurring and simple blurring to augement traffic sign that has less than 500 image in the training set.
 
-Here is an example of an original image and an augmented image:
+Here is an example of an gaussian blur image and an simple blur image:
 
 ![gaussian and simple blur][image2]
 
@@ -143,7 +143,7 @@ For the first image, the model is relatively sure that this is a no entry sign (
 | .000				    | speed limit 30 km/h  							|
 
 
-For the first image, the model is relatively sure that this is a Turn right sign (probability of 0.99), and the image does contain a turn right. The top five soft max probabilities were
+For the second image, the model is relatively sure that this is a Turn right sign (probability of 0.99), and the image does contain a turn right. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -153,7 +153,7 @@ For the first image, the model is relatively sure that this is a Turn right sign
 | .000	      			| Keep left 					 				|
 | .000				    | Roundabout mandatory 							|
 
-For the first image, the model is not sure that this is a children passing sign (probability of 0.546), and the image does not contain a children passing. The top five soft max probabilities were
+For the third image, the model is not sure that this is a children passing sign (probability of 0.546), and the image does not contain a children passing. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -163,7 +163,7 @@ For the first image, the model is not sure that this is a children passing sign 
 | .009	      			| Roundabout mandatory			 				|
 | .007				    | General caution     							|
 
-For the first image, the model is not sure that this is a stop sign (probability of 0.497) but it is relative sure than any other class, and the image does contain a stop sign. The top five soft max probabilities were
+For the fourth image, the model is not sure that this is a stop sign (probability of 0.497) but it is relative sure than any other class, and the image does contain a stop sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -173,7 +173,7 @@ For the first image, the model is not sure that this is a stop sign (probability
 | .024	      			| Keep right					 				|
 | .021				    | Traffic signals      							|
 
-For the first image, the model is relatively sure that this is a no passing for truck sign (probability of 0.985), and the image does contain a no passing for truck sign. The top five soft max probabilities were
+For the fifth image, the model is relatively sure that this is a no passing for truck sign (probability of 0.985), and the image does contain a no passing for truck sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
