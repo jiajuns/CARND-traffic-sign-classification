@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.png "Visualization"
-[image2]: ./examples/blur.png "gaussian blur"
+[image2]: ./examples/augment.png "gaussian blur"
 
 [image4]: ./examples/loss_curve.png "loss curve"
 
